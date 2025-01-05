@@ -1,0 +1,138 @@
+
+
+.div_principale{       
+
+    
+  
+    
+    
+    
+    width:60%;
+    
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+  }
+
+
+
+.form_login{      
+          /* div contenitore form login */
+    
+    border-radius:30px;
+   
+    float:left;
+    margin:5px;
+   
+      
+  
+    
+    
+    background-color: white;
+  
+
+}
+
+#div1{    /*form*/
+ width: 30%;
+}
+#div2{    /*immagine*/
+width: 60%;
+}
+#immagine{
+    margin-top:20%;
+    width: 70%;
+    margin-left:20%;
+  
+}
+#scritta{
+   
+    margin-top:55%;
+    margin-left: 10%;
+    margin-bottom:10px;
+    
+    width: 210px;
+}
+
+
+body{
+ 
+   background-color: white;
+
+
+}
+
+
+
+#input_username{
+    border-radius:5px;
+    width: 300px;
+    height: 30px;
+    margin-top:5%;
+    margin-left:10%;
+    padding:9px;
+
+    border:1px solid black;
+}
+
+
+#input_password{
+    border-radius:5px;
+    height: 30px;
+    width: 300px;
+    margin-top:10px;
+    margin-left:10%;
+    border:1px solid black;
+    padding:9px;
+}
+
+
+#p_noaccount{
+    margin-left:25%;
+    margin-top:30px;
+    color:black;
+}
+
+#accedi{
+    border-radius:20px;
+    margin-left:13%;
+    width: 300px;
+    margin-top:20px;
+    padding:13px;
+    background-color:rgb(42, 140, 239);
+}
+
+
+
+#scritta_login{
+    position:absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top:20px;
+    width: 25%;
+    
+    color:black;
+}
+
+a:visited{
+ color:blue;
+}
+
+
+
+.div_principale{
+    background-color:grey;
+    border-radius: 30px;
+    margin-left:330px;
+    margin-top:100px;
+}
+
+
+.form_login{
+    background-color:rgb(187, 182, 182);
+}
+
+
+
+
+

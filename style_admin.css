@@ -1,0 +1,984 @@
+
+/*.bottone{
+    border-radius:20px;
+    background-color:blue;
+    color:white;
+}
+*/
+.bottone:hover{
+    transform: translateY(2px);
+}
+
+
+table{
+border-collapse:collapse;
+}
+
+td,th{
+  padding:5px;
+  border:1px solid black;
+  text-align: center;;
+}
+
+
+#menu{
+    width:700px;
+    background-color:lightblue;
+    height:50px;
+    
+    text-align:center;
+    margin-top:20px;
+    padding-top:20px;
+    
+}
+
+#menu a{
+    font-size:20px;
+     color:aliceblue;
+    margin-left:20px;
+}
+
+#menu a:hover{
+    color:green;
+}
+
+#ordina{                             /* colore input  ordina*/
+    background-color: red;
+}
+a:active{
+    background-color:black;
+}
+
+
+.bott :hover{
+background-color: green;
+}
+
+.co{
+    background-color: blue;
+    border-radius: 20px;
+    padding:5px;
+}
+
+
+li{
+   
+margin:15px;
+}
+
+.search{
+    margin-right:50px;
+    
+}
+
+.navbar{
+  margin-top:10px;
+  margin-bottom:20px;
+  padding:20px;
+  background-color: rgb(19, 17, 17);
+  color:white;
+   
+}
+
+.logout{
+    margin-right:400px;
+}
+
+a{
+    font-size: 20px;
+    
+    
+}
+
+nav li a:hover{
+
+    color: #ffcd05; /* Colore quando si passa sopra */
+    border-bottom: 2px solid #ffcd05; /* sottolineatura */
+   
+
+}
+nav li a:active{
+    color:#ffcd05;
+}
+
+nav li a:focus{
+  color: white; /* Colore quando si clicca o si fa focus */
+ 
+}
+
+
+li a{
+  color: rgb(177, 172, 172);
+  text-decoration: none;
+  transition: color 0.3s, border-bottom-color 0.3s;
+  
+}
+.badge1{
+    position:absolute;
+    top:11px;
+    right:920px;
+}
+
+#mod_quantità{
+    height:25px;
+}
+
+.button_quantità{
+  height:35px;
+  
+}
+.admin{
+    margin-bottom:0px;
+}
+
+#logoutt{
+    margin-left:0%;
+}
+
+
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: orangered;
+  color: white;
+}
+
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   
+  }
+  
+.table td, .table th {
+    border: 2px solid #ddd;
+    padding: 3px;
+
+  }
+
+
+  #notable{
+      border-left:0; 
+      border-right:0; 
+      border-top:0; 
+      border-bottom:0;
+      background-color:white;
+  }
+
+  #notable:hover{
+  background-color:;
+
+  }
+
+
+  #cli{          /*ricerca in cliente home*/
+    margin-left:420px;
+    
+}
+
+
+#lavori_cliente{
+    margin-left:20px;
+}
+
+
+
+
+
+
+#home_dip{
+    margin-left:20px;
+}
+
+
+#logout{
+    margin-right:780px;
+}
+
+.logout:hover{
+ color:orangered;
+ border-bottom: 2px solid orangered;
+}
+
+
+.buttons_tabella{
+    border-radius:10px;
+    color:white;
+    background-color: rgb(102, 102, 235);
+    
+}
+
+.buttons_tabella:hover{
+  transform: translateY(-4px);
+}
+
+#indietro{
+    color:white;
+}
+
+#indietro:hover{
+    color: orangered; /* Colore quando si passa sopra */
+    border-bottom: 2px solid orangered; /* sottolineatura */
+}
+
+#tablee{  /*tabella modifica magazzino */
+    margin-top:200px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#table_mostra{
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:20px;
+}
+
+
+
+
+#cerca_prodotto{
+    font-size: 26px;
+    margin-top:30px;
+    margin-left:20px;
+}
+
+.navbar-brand{
+    color: #ffcd05; /* Colore quando si passa sopra */
+    border-bottom: 2px solid #ffcd05; /* sottolineatura */
+}
+
+
+#table_mag_dip{
+    margin-right:20px;
+    margin-top:20px;
+}
+
+#table_stato_lavori{
+    padding-bottom:1px;
+}
+
+.elimina_button{
+    margin-left:
+}
+
+
+
+
+#label_messaggio{
+    margin-top:30px;
+}
+
+.div_email{         
+    margin-top:40px;
+}
+
+#label_oggetto{
+    margin-top:30px;
+}
+
+#submit_ordina{
+    margin-top:20px;
+    width:100px;
+    border-radius:10px;
+}
+
+
+#div_principale_email{
+   background-color:white;
+   width: 55%;                 /* se tieni a 55-60 con f12 è bello, ma è troppo largo normalmente*/
+   padding:20px;
+   margin-top:100px;
+   border-radius: 30px;
+}
+
+#div_pagina{      /*div principale in mostra magazzino*/
+    background-color: white;
+    border-radius: 30px;
+    margin-top:50px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#table_mostra{             /*tabella mostra_magazzino*/
+    margin-right:15px;
+}
+
+#div_form_mostra_magazzino{   /*div del form in mostra magazzino*/
+    margin-top:40px;
+    margin-left:3px;
+    margin-bottom:-30px;
+}
+
+#div_modifica_magazzino{         /*div modifica_magazzino*/
+    background-color: white;
+    border-radius: 30px;
+    margin-top:60px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#tablee{         /*tabella modifica_magazzino*/
+    margin-top:50px;
+}
+
+#bottone_modifica_magazzino{        /*bottone modifica_magazzino*/
+    margin-top:-30px;
+    margin-bottom:15px;
+}
+
+#div_stato_lavori{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:60px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#bottone_stato_lavori{
+    margin-bottom:15px;
+    margin-top:25px;
+}
+
+#search_stato_lavori{       
+    margin-top:20px;
+    margin-bottom:15px;
+    margin-left:5px;
+}
+
+#table_stato_lavori{
+    margin-left:10px;
+}
+
+#div_notifiche{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:60px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#table_ordina{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+}
+
+#div_cerca_prodotto{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:60px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#table_cerca_prodotto{
+    margin-top:35px;
+    margin-bottom:35px;
+    margin-left:10px;
+    margin-right:25px;
+    
+}
+#div_error_cerca_prodotto{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:60px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#error{
+    margin-bottom:40px;
+    margin-top:-15px;
+}
+
+#div_modifica_quantità{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:60px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#form_modifica_quantità{
+  margin-bottom:30px;
+  margin-top:-5px;
+}
+
+#table_modifica_quantità{
+    margin-top:30px;
+    margin-left:0px;
+    margin-right:10px;
+}
+
+.div_logout_admin{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:300px;
+    border:1px ridge white;
+    width: 50%;
+    height: 50%;
+    opacity:0.97;
+}
+
+.logout_admin{
+    color:red;
+    padding:50px;
+    font-size: larger;
+    margin-bottom:-5px;
+}
+
+#div_no_notifiche{
+   
+    background-color: white;
+    border-radius: 30px;
+    margin-top:10px;
+    border:1px ridge white;
+    width: 50%;
+    height: 50%;
+    opacity:0.97;
+    
+}
+
+.no_notifiche_notifiche{
+    color:red;
+    padding:20px;
+    font-size: larger;
+    margin-bottom:-5px;
+
+}
+
+#div_aggiungi_scheda{
+    background-color: white;
+    border-radius: 30px;
+    opacity:0.97;
+    width:50%;
+    margin-top:150px;
+    
+    
+}
+
+.form_aggiungi{
+    margin-top:40px;
+    
+
+}
+
+
+
+#submit_ordina{               /* bottone aggiungi_scheda*/
+    margin-bottom:20px;
+
+}
+
+#textarea_form_aggiungi{
+    margin-top:20px;
+    width:400px;
+    height:100px;
+}
+
+#div_form_mostra_magazzino_dip{   /*div del form in mostra magazzino_dip*/
+    margin-top:40px;
+    margin-left:2px;
+    margin-bottom:-30px;
+}
+
+#div_principale_mostra_magazzino_dip{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#div_principale_notifica_a_admin{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:150px;
+    margin-right:150px;
+    opacity:0.97;
+    
+}
+
+
+#button_ordina_notifiche_a_admin{
+    margin-bottom:20px;
+}
+
+#div_principale_cerca_magazzino_dip{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+
+#table_cerca_magazzino_dip{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#div_principale_lista_utenti{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:10px;
+    margin-right:10px;
+    opacity:0.97;
+}
+
+#table_lista_utenti{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#div_confirm_login{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:500px;
+    margin-right:500px;
+    opacity:0.97;
+    margin-top:350px;
+}
+
+.p_confirm_login{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:larger;
+    color:red;
+}
+
+
+
+#ricerca_prod_dip{
+    background-color: white;
+    
+    border-radius: 30px;
+    margin-top:50px;
+    border:1px ridge white;
+    margin-left:500px;
+    margin-right:500px;
+    opacity:0.97;
+    margin-top:50px;
+}
+
+
+#notifica_a_admin{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:50px;
+    border:1px ridge white;
+    margin-left:500px;
+    margin-right:500px;
+    opacity:0.97;
+  
+}
+
+#cerca_magazzino_dip{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:50px;
+    border:1px ridge white;
+    margin-left:500px;
+    margin-right:500px;
+    opacity:0.97;
+}
+
+#p_cerca_magazzino_dip{
+    margin-top:-25px;
+
+}
+
+#stato_lavori_no_lavori{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:50px;
+    border:1px ridge white;
+    margin-left:500px;
+    margin-right:500px;
+    opacity:0.97;
+}
+
+#p_no_lavori{
+    margin-top:-25px;
+}
+
+#p_lista_utenti_no_trovato{
+  margin-top:-25px;
+}
+
+#lista_utenti_no_trovato{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:50px;
+    border:1px ridge white;
+    margin-left:500px;
+    margin-right:500px;
+    opacity:0.97;
+}
+
+#scheda_tecnica_admin{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:260px;
+    margin-right:260px;
+    opacity:0.97;
+}
+
+#p_ricerca_prodotto{
+    margin-top:10px;
+}
+
+#p_no_ricerca_prodotto{
+  
+ margin-top:-60px;
+}
+
+#div_no_ricerca_prodotto{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:100px;
+    margin-right:100px;
+    opacity:0.97;
+  
+}
+
+
+
+.no_brand{
+    color: rgb(183, 50, 50); /* Colore quando si passa sopra */
+    border-bottom: 2px solid ;
+}
+
+
+
+
+#div_scheda_tecnica{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:150px;
+    height:180px;
+    width: 900px;
+    border:1px ridge white;
+    margin-left:400px;
+    margin-right:300px;
+    opacity:0.97;
+    padding-left:25px;
+    padding-right:25px;
+   
+}
+
+
+#div_scheda_tecnica_dip{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:150px;
+    height:180px;
+    width: 900px;
+    border:1px ridge white;
+    margin-left:400px;
+    margin-right:300px;
+    opacity:0.97;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+#div_ricerca_prodotto{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:300px;
+    margin-right:300px;
+    opacity:0.97; 
+}
+
+
+#div_modifica_scheda_lavori{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:300px;
+    margin-right:300px;
+    opacity:0.97; 
+}
+
+
+#div_scheda_lavori_personale_admin{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:300px;
+    margin-right:300px;
+    opacity:0.97; 
+}
+
+.a_scheda_lavori:hover{
+    color:white;
+    
+}
+
+
+.a_scheda_lavori:focus{
+    background-color: transparent;
+}
+
+
+.transform_button:hover{
+    transform: translateY(2px);
+}
+
+#mostra_magazzino_dip_link:focus{
+    background-color: transparent;
+}
+
+#mostra_magazzino_link{
+    background-color: transparent;
+}
+
+#table_bottoni{
+    margin:-10px;
+}
+
+#bottone_stato_lavori_elimina{
+    background-color: white;
+   border-color:red;
+    margin-bottom:15px;
+    margin-top:50px;
+}
+
+
+.a_scheda_lavori_elimina{
+    color:red;
+    border-color: white;
+    
+}
+
+.a_scheda_lavori_elimina:hover{
+    background-color: transparent;
+    color:white;
+    
+   
+}
+
+#bottone_stato_lavori_elimina:hover{
+    background-color: red;
+   border-color:;
+    margin-bottom:15px;
+    color:white
+}
+
+
+#div_inserisci_prodotto{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:300px;
+    margin-right:300px;
+    opacity:0.97; 
+    height:450px;
+}
+
+#inserisci_position_button{
+   margin-left:510px;
+   margin-top:40px;
+}
+
+#submit_ordina2{
+    
+    width:150px;
+   margin-right:-140px;
+}
+
+#div_confirm_register{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:350px;
+    border:1px ridge white;
+    width: 50%;
+    height: 50%;
+    opacity:0.97;
+    margin-left:450px;
+    padding:5px;
+}
+
+
+.p_register{
+    font-size:large;
+    margin-bottom:-3px;
+    padding:6px;
+}
+
+
+.p_register a:active{
+    background-color: transparent; /* Colore quando si clicca o si fa focus */
+}
+
+
+#div_servizio_clienti{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:150px;
+    border:1px ridge white;
+    width: 50%;
+    height: 50%;
+    opacity:0.97;
+
+    padding:5px;
+}
+
+.riga{
+    margin-top:10px;
+    margin-bottom:20px;
+    border-top:3px solid rgb(15, 15, 81);
+    width: 100%;
+}
+
+.rig{
+    margin-top:8px;
+    margin-bottom:15px;
+    width: 13%;
+    border-top:1.5px solid black;
+}
+
+#cerca_prodotto_link{
+background-color: transparent;
+}
+
+#cerca_prodotto_link:focus{
+    background-color: transparent;
+}
+
+
+#cerca_magazzino_dip_link:focus{
+    background-color: transparent;
+}
+
+
+.riga_notifica{
+    margin-top:-5px;
+    margin-bottom:8px;
+    border-bottom: 1.5px solid black;
+    width: 30%;
+}
+
+
+#div_confirm_aggiungi_scheda{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:350px;
+    border:1px ridge white;
+    width: 50%;
+    height: 50%;
+    opacity:0.97;
+    margin-left:450px;
+    padding:5px;
+}
+
+.no_lavori{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:250px;
+    border:1px ridge white;
+    margin-left:100px;
+    margin-right:100px;
+    opacity:0.97;
+    width:700px;
+    padding:10px;
+    
+ 
+}
+
+
+.p_no_lavori{
+    color:red;
+    padding:10px;
+    font-size: larger;
+    margin-bottom:5px; 
+    margin-top:15px;
+}
+
+
+
+#div_lavoro_passato_selezionato{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    width: 60%;
+    height: 50%;
+    opacity:0.97;
+   
+    padding:5px;
+}
+
+
+
+#div_lavori_passati_cliente{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:200px;
+    border:1px ridge white;
+    margin-left:100px;
+    margin-right:100px;
+    opacity:0.97;
+    height: 200px;
+    width: 800px;
+}
+
+#div_lavori_cliente{
+    background-color: white;
+    border-radius: 30px;
+    margin-top:100px;
+    border:1px ridge white;
+    margin-left:100px;
+    margin-right:100px;
+    opacity:0.97;
+    height: 350px;
+}
+
+
+.riga_descrizione{
+    margin-top:8px;
+    margin-bottom:15px;
+    width: 18%;
+    border-top:1.5px solid black;
+
+}

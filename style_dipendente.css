@@ -1,0 +1,36 @@
+#header a{
+    
+    font-size:20px;
+    margin-left:20px;
+    margin-top:10px;
+    
+}
+
+
+#header a:hover{
+color:green;
+}
+
+
+#header{
+    text-align: center;
+    width: 700px;
+    background-color: aqua;
+    padding:9px;
+
+}
+
+
+#header a {
+    color:brown;
+}
+
+
+table{
+    border-collapse:collapse;
+}
+
+td,th{
+    padding:7px;
+    border:2px solid black;
+}
